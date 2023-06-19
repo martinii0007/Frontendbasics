@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Mainbody{
+    width: 100%;
+    height: max-content;
+}
+
+.Header{
+    width: 100%;
+    height: 13vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 1%;
+}
+
+.Icons{
+    cursor: pointer;
+}
+
+.headerHolder{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    padding-inline: 2.5%;
+    justify-content: space-between;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.headerHolder h1{
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif
+}
+
+.headerHolder ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+.headerHolder li{
+    padding: 10px;
+    font-size: 15px;
+    list-style-type: none;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.headerHolder li:hover{
+    background-color: lightgray;
+    border-radius: 3px;
+}
+
+.headerIcons{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.HomeView{
+    width: 100%;
+    height: 83vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeWrapper{
+    width: 87%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    color: white;
+    font-family: cursive;
+}
+
+.arrowNavs{
+    width: 4%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.arrow{
+    cursor: pointer;
+    color: black;
+    transform: scale(1);
+    font-size:medium;
+}
+.arrow:hover{
+    transition: all 200ms;
+    transform: scale(1.2);
+    color: darkgray;
+}
+
+.ImageBox{
+    width: 28%;
+    height: 95%;
+    display: flex;
+    object-fit: cover;
+    transition: opacity 3s ease-in-out;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.ImageBox span{
+    width: 100%;
+    font-size: 10px;
+}
+.ImageBox img{
+    width: 80%;
+    height: 60%;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 3s ease-in-out;
+}
+
+.ImageBox h4{
+    color: black;
+    font-family: sans-serif;
+}
+
+
+.Btn{
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: none;
+
+}
